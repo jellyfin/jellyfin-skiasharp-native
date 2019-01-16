@@ -3,22 +3,22 @@
   <metadata>
 
     <!-- package -->
-    <id>Jellyfin.SkiaSharp.NativeAssets.LinuxArm</id>
-    <title>Jellyfin.SkiaSharp.NativeAssets.LinuxArm</title>
+    <id>Jellyfin.SkiaSharp.NativeAssets.LinuxMusl</id>
+    <title>Jellyfin.SkiaSharp.NativeAssets.LinuxMusl</title>
     <version>1.68.0</version>
     <description>
-    This is a Raspbian tools built ARM32+ARM64 native library for SkiaSharp.
+    This is a Alpine linux built native library for SkiaSharp.
     
     SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library.
     It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images.
     </description>
     <summary>
-    This is a Raspbian tools built ARM32+ARM64 native library for SkiaSharp.
+    This is a Alpine linux built native library for SkiaSharp.
     SkiaSharp is a cross-platform 2D graphics API for .NET platforms that can be used across mobile, server and desktop models to render images.
     </summary>
     <projectUrl>https://github.com/Jellyfin/jellyfin-skiasharp-native</projectUrl>
 
-    <tags>xamarin graphics linux arm cross-platform skiasharp</tags>
+    <tags>xamarin graphics linux musl alpine cross-platform skiasharp</tags>
 
 
     <license type="expression">MIT</license>

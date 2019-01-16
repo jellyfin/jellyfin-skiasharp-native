@@ -1,0 +1,27 @@
+--- skia/src/opts/SkRasterPipeline_opts.h       2019-01-09 18:19:10.865939300 +0100
++++ skia/src/opts/SkRasterPipeline_opts_new.h   2019-01-09 18:51:42.634521900 +0100
+@@ -653,10 +653,7 @@
+ }
+
+ SI F from_half(U16 h) {
+-#if defined(__aarch64__) && !defined(SK_BUILD_FOR_GOOGLE3)  // Temporary workaround for some Google3 builds.
+-    return vcvt_f32_f16(h);
+-
+-#elif defined(JUMPER_IS_HSW) || defined(JUMPER_IS_AVX512)
++#if defined(JUMPER_IS_HSW) || defined(JUMPER_IS_AVX512)
+     return _mm256_cvtph_ps(h);
+
+ #else
+@@ -673,10 +670,7 @@
+ }
+
+ SI U16 to_half(F f) {
+-#if defined(__aarch64__) && !defined(SK_BUILD_FOR_GOOGLE3)  // Temporary workaround for some Google3 builds.
+-    return vcvt_f16_f32(f);
+-
+-#elif defined(JUMPER_IS_HSW) || defined(JUMPER_IS_AVX512)
++#if defined(JUMPER_IS_HSW) || defined(JUMPER_IS_AVX512)
+     return _mm256_cvtps_ph(f, _MM_FROUND_CUR_DIRECTION);
+
+ #else
+ 
