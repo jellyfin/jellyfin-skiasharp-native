@@ -37,8 +37,7 @@
 
     <file src="build/net45/SkiaSharp.targets" target="build/net45/SkiaSharp.targets"/>
     <!-- the native file -->
-    <file src="runtimes/linux-arm/native/libSkiaSharp.so" target="runtimes/linux-arm/native/libSkiaSharp.so"/>
-    <file src="runtimes/linux-arm64/native/libSkiaSharp.so" target="runtimes/linux-arm64/native/libSkiaSharp.so"/>
+    <file src="runtimes/linux-musl-x64/native/libSkiaSharp.so" target="runtimes/linux-musl-x64/native/libSkiaSharp.so"/>
     <file src="../LICENSE.txt" target="LICENSE.txt"/>
     <file src="../THIRD-PARTY-NOTICES.txt" target="THIRD-PARTY-NOTICES.txt"/>
   </files>
