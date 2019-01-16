@@ -1,0 +1,7 @@
+*.nupkg
+*.so
+
+skia
+depot-tools
+tools
+gcc-linaro*
