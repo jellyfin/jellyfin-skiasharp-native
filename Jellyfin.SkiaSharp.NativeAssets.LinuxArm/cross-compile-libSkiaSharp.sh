@@ -4,7 +4,7 @@ TOOLCHAIN_ARM64=gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu
 
 set -e
 if [ ! -d "skia" ] ; then
-    git clone https://github.com/mono/skia.git -b v1.68.0 --depth 1 skia
+    git clone https://github.com/mono/skia.git -b v1.68.1 --depth 1 skia
 fi
 if [ ! -d "depot_tools" ] ; then
     git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git --depth 1

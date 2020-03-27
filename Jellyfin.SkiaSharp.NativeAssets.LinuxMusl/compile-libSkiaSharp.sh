@@ -3,7 +3,7 @@
 
 set -e
 if [ ! -d "skia" ] ; then
-    git clone https://github.com/mono/skia.git -b v1.68.0 --depth 1 skia
+    git clone https://github.com/mono/skia.git -b v1.68.1 --depth 1 skia
 fi
 
 cd skia
