@@ -11,5 +11,5 @@ The 64-bit build runs with `-flax-vector-conversions` so, use at your own risk. 
 
 ## Build (non Debian) (uses docker)
 
-1. `build-in-docker.sh`
+1. `build-in-docker.sh` (on Linux) or `build-in-docker.bat` (on Windows)
 2. `nuget pack`

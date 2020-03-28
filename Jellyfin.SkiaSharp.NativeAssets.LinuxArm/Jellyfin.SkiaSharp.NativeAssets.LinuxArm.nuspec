@@ -5,7 +5,7 @@
     <!-- package -->
     <id>Jellyfin.SkiaSharp.NativeAssets.LinuxArm</id>
     <title>Jellyfin.SkiaSharp.NativeAssets.LinuxArm</title>
-    <version>1.68.0</version>
+    <version>1.68.1</version>
     <description>
     This is a Raspbian tools built ARM32+ARM64 native library for SkiaSharp.
     
@@ -29,7 +29,7 @@
     <copyright>© Microsoft Corporation. All rights reserved.</copyright>
 
     <dependencies>
-      <dependency id="SkiaSharp" version="1.68.0" />
+      <dependency id="SkiaSharp" version="1.68.1" />
     </dependencies>
 
   </metadata>
